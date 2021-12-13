@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testrunner-1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.crm.comcast.conatctTest.CreateContactTest">
+        <methods>
+          <include name="configBS"/>
+          <include name="configBc"/>
+          <include name="createContact_Support_DateTest"/>
+          <include name="configAs"/>
+          <include name="configAc"/>
+          <include name="createConatctWithOrgTest"/>
+          <include name="configAm"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- com.crm.comcast.conatctTest.CreateContactTest -->
+      <class name="com.crm.comcast.organaizationtest.CreateOrganizationTest">
+        <methods>
+          <include name="configBS"/>
+          <include name="configBc"/>
+          <include name="configAs"/>
+          <include name="configAc"/>
+          <include name="createOrganization_With_Industries_And_Type_Test"/>
+          <include name="configAm"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- com.crm.comcast.organaizationtest.CreateOrganizationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Testrunner-1] -->

@@ -21,7 +21,7 @@ import com.google.common.io.Files;
 
 /**
  *  its contains WebDriver specific reusable actions 
- * @author Deepak
+ * @author Sreeharsha
  *
  */
 public class WebDriverUtility {
@@ -49,6 +49,10 @@ public class WebDriverUtility {
 		WebDriverWait wait = new WebDriverWait(driver, IConstants.explicitlyWait_TimeOut);
 		wait.until(ExpectedConditions.elementToBeClickable(element));
 		
+	}
+	public void waitForElementVisibility(WebDriver driver,WebElement element) {
+		WebDriverWait wait=new WebDriverWait(driver, IConstants.explicitlyWait_TimeOut);
+		wait.until(ExpectedConditions.visibilityOf(element));
 	}
 	
 	  /**
@@ -138,6 +142,7 @@ public class WebDriverUtility {
 	 * @param driver
 	 * @param elemnet
 	 */
+
 	public void mouseOverOnElemnet(WebDriver driver , WebElement elemnet)
 	{
 		Actions act = new Actions(driver);

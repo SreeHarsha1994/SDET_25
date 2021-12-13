@@ -12,7 +12,7 @@ import com.crm.comcast.genericutility.WebDriverUtility;
 
 /**
  * 
- * @author Nithesh
+ * @author Sreeharsha
  *
  */
 public class CreateNewConatctPage extends WebDriverUtility{
@@ -53,7 +53,7 @@ public class CreateNewConatctPage extends WebDriverUtility{
 	}
 	
 	/**
-	 * @author deepak
+	 * @author SreeHarsh
 	 *  create new Contact with lastName & date , mobileNuber
 	 * @param lastName , mobileNum
 	 */
@@ -75,7 +75,7 @@ public class CreateNewConatctPage extends WebDriverUtility{
 		lastNAmeTxt.sendKeys(lastName);
 		orgName_LookUpImg.click();
 		swithToWindow(driver, "Accounts");
-		OrganizationPage op = new OrganizationPage(driver);
+		OrganizationPage op = new OrganizationPage(driver);//Creating  another Pom page inside another pom
 		op.getSearchTF().sendKeys(orgName);
 		op.getSearchBtn().click();
 		WebElement wb = driver.findElement(By.xpath("//a[text()='"+orgName+"']"));

@@ -21,7 +21,6 @@ public class ContactsInfoPage {
 	public WebElement getContactSucMsg() {
 		return contactSucMsg;
 	}
+ 
 	
-	
-
 }

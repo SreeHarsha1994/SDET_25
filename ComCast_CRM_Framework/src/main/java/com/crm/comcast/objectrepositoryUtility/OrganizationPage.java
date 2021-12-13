@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 /**
  * 
- * @author Nitheesha
+ * @author Sreeharsha
  *
  */
 public class OrganizationPage {

@@ -5,7 +5,7 @@ import java.util.Random;
 
 /**
  *   class contains java specific libraries which includes get System date & get random number etc
- * @author Deepak HR
+ * @author Sreeharsha
  *
  */
 public class JavaUtlity {

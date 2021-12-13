@@ -1,41 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-02T13:15:31 IST" name="Suite" finished-at="2021-12-02T13:17:19 IST" duration-ms="107913">
+  <suite started-at="2021-12-12T09:47:55 IST" name="Default suite" finished-at="2021-12-12T09:47:55 IST" duration-ms="42">
     <groups>
     </groups>
-    <test started-at="2021-12-02T13:15:31 IST" name="Test" finished-at="2021-12-02T13:17:19 IST" duration-ms="107913">
-      <class name="com.crm.comcast.conatctTest.CreateContactTest">
-        <test-method signature="createContactTest()[pri:0, instance:com.crm.comcast.conatctTest.CreateContactTest@3bf9ce3e]" started-at="2021-12-02T13:16:00 IST" name="createContactTest" finished-at="2021-12-02T13:16:20 IST" duration-ms="19688" status="PASS">
+    <test started-at="2021-12-12T09:47:55 IST" name="Default test" finished-at="2021-12-12T09:47:55 IST" duration-ms="42">
+      <class name="com.crm.comcast.conatctTest.Data">
+        <test-method signature="getDate()[pri:0, instance:com.crm.comcast.conatctTest.Data@247d8ae]" started-at="2021-12-12T09:47:55 IST" name="getDate" finished-at="2021-12-12T09:47:55 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createContactTest -->
-      </class> <!-- com.crm.comcast.conatctTest.CreateContactTest -->
-      <class name="com.crm.comcast.organaizationtest.CreateOrganization_With_Industries_And_Type_Test">
-        <test-method signature="createOrganization_With_Industries_And_Type_Test()[pri:0, instance:com.crm.comcast.organaizationtest.CreateOrganization_With_Industries_And_Type_Test@16610890]" started-at="2021-12-02T13:16:20 IST" name="createOrganization_With_Industries_And_Type_Test" finished-at="2021-12-02T13:16:40 IST" duration-ms="19970" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createOrganization_With_Industries_And_Type_Test -->
-      </class> <!-- com.crm.comcast.organaizationtest.CreateOrganization_With_Industries_And_Type_Test -->
-      <class name="com.crm.comcast.organaizationtest.CreateOrganizationTest">
-        <test-method signature="createOrganizationTest()[pri:0, instance:com.crm.comcast.organaizationtest.CreateOrganizationTest@383bfa16]" started-at="2021-12-02T13:16:59 IST" name="createOrganizationTest" finished-at="2021-12-02T13:17:19 IST" duration-ms="19398" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createOrganizationTest -->
-      </class> <!-- com.crm.comcast.organaizationtest.CreateOrganizationTest -->
-      <class name="com.crm.comcast.conatctTest.CreateContact_Support_DateTest">
-        <test-method signature="createContact_Support_DateTest()[pri:0, instance:com.crm.comcast.conatctTest.CreateContact_Support_DateTest@71def8f8]" started-at="2021-12-02T13:16:40 IST" name="createContact_Support_DateTest" finished-at="2021-12-02T13:16:59 IST" duration-ms="19220" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createContact_Support_DateTest -->
-      </class> <!-- com.crm.comcast.conatctTest.CreateContact_Support_DateTest -->
-      <class name="com.crm.comcast.conatctTest.CreateConatctWithOrgTest">
-        <test-method signature="createConatctWithOrgTest()[pri:0, instance:com.crm.comcast.conatctTest.CreateConatctWithOrgTest@6f46426d]" started-at="2021-12-02T13:15:31 IST" name="createConatctWithOrgTest" finished-at="2021-12-02T13:16:00 IST" duration-ms="29545" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createConatctWithOrgTest -->
-      </class> <!-- com.crm.comcast.conatctTest.CreateConatctWithOrgTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- getDate -->
+      </class> <!-- com.crm.comcast.conatctTest.Data -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

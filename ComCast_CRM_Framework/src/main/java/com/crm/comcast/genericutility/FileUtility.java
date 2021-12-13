@@ -5,7 +5,7 @@ import java.util.Properties;
 
 /**
  * 
- * @author Deepak
+ * @author Sreeharsha
  *
  */
 public class FileUtility {
@@ -19,8 +19,6 @@ public class FileUtility {
     	 Properties pobj = new Properties();
     	 pobj.load(fis);
     	 String value = pobj.getProperty(key);
-		return value;
-    	
+		return value;   	
     }
-
 }
